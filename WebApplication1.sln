@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{53968C6B-70A1-4EB7-B511-AEDB485E3EFF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{90EFEE55-37D9-422D-AFA2-196DA596AD1B}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "WebApplication1", "src\WebApplication1\WebApplication1.xproj", "{658E2274-FBB7-4341-A60C-C06E1F5F54E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfApplication2", "WpfApplication2\WpfApplication2.csproj", "{29FF4936-3932-481D-B1A0-3147DC3D14B3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{658E2274-FBB7-4341-A60C-C06E1F5F54E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{658E2274-FBB7-4341-A60C-C06E1F5F54E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{658E2274-FBB7-4341-A60C-C06E1F5F54E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{658E2274-FBB7-4341-A60C-C06E1F5F54E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29FF4936-3932-481D-B1A0-3147DC3D14B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29FF4936-3932-481D-B1A0-3147DC3D14B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29FF4936-3932-481D-B1A0-3147DC3D14B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29FF4936-3932-481D-B1A0-3147DC3D14B3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{658E2274-FBB7-4341-A60C-C06E1F5F54E6} = {53968C6B-70A1-4EB7-B511-AEDB485E3EFF}
+		{29FF4936-3932-481D-B1A0-3147DC3D14B3} = {53968C6B-70A1-4EB7-B511-AEDB485E3EFF}
+	EndGlobalSection
+EndGlobal

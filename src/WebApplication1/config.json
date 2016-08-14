@@ -1,0 +1,9 @@
+{
+  "MailSettings": {
+    "ToAddress": "adam@adam.hu"
+  },
+  "ConnectionStrings": {
+    "WorldContextConnection": "Server=(localdb)\\MSSQLLocalDB;Database=TheWorld;Trusted_Connection=true;MultipleActiveResultSets=true;"
+
+  }
+}
